@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -24,6 +24,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/register" element={<Register />} />
           <Route path="/search" element={<Search />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </MainLayout>
     </Router>
