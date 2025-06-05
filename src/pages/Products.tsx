@@ -28,11 +28,29 @@ const Products: React.FC = () => {
       <h1 style={{ color: '#FFC94A' }}>Our Products</h1>
       <div className="products-grid">
         {products.map((product) => (
-          <div key={product.id} className="product-card" style={{ color: '#181a20', background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }}>
+          <div 
+            key={product.id} 
+            className="product-card" 
+            onClick={() => handleProductClick(product)}
+            style={{ 
+              color: '#181a20', 
+              background: '#fff', 
+              border: '1px solid #e2e8f0', 
+              borderRadius: 12, 
+              boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+              cursor: 'pointer'
+            }}
+          >
             <img src={product.image} alt={product.name} style={{ width: '100%', maxHeight: 180, objectFit: 'cover', borderRadius: 8, marginBottom: 16 }} />
             <h2 style={{ color: '#101522', marginBottom: 8 }}>{product.name}</h2>
             <p style={{ color: '#333', fontWeight: 600, fontSize: 18 }}>${product.price.toFixed(2)}</p>
-            <button onClick={() => handleAddToCart(product)} style={{ marginTop: 12 }}>
+            <button 
+              onClick={(e) => {
+                e.stopPropagation();
+                handleAddToCart(product);
+              }} 
+              style={{ marginTop: 12 }}
+            >
               Add to Cart
             </button>
           </div>
