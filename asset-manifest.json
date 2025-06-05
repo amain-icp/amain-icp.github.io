@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.550a68b8.css",
-    "main.js": "/static/js/main.1f66ab97.js",
+    "main.css": "/static/css/main.1cbc0b26.css",
+    "main.js": "/static/js/main.7270fda6.js",
     "static/js/453.fb01383b.chunk.js": "/static/js/453.fb01383b.chunk.js",
+    "static/media/product-bag.png": "/static/media/product-bag.6a462781ccac556754ca.png",
+    "static/media/hero-tennis.png": "/static/media/hero-tennis.9441e41fe88c753d335f.png",
+    "static/media/product-racket.png": "/static/media/product-racket.24cc22eed945c98cc10b.png",
+    "static/media/company-logo.png": "/static/media/company-logo.0273b5e2dcac66ed581e.png",
+    "static/media/product-shoes.png": "/static/media/product-shoes.bdbdcf0d2461dc2a0e3a.png",
+    "static/media/icon-programs.png": "/static/media/icon-programs.386e5a411b2f1e3ffae5.png",
+    "static/media/icon-facility.png": "/static/media/icon-facility.7f07e80896bfa24a82c6.png",
     "index.html": "/index.html",
-    "main.550a68b8.css.map": "/static/css/main.550a68b8.css.map",
-    "main.1f66ab97.js.map": "/static/js/main.1f66ab97.js.map",
+    "static/media/search-icon.svg": "/static/media/search-icon.b1f781b99ceaafb9c831949bb54ae3cd.svg",
+    "main.1cbc0b26.css.map": "/static/css/main.1cbc0b26.css.map",
+    "main.7270fda6.js.map": "/static/js/main.7270fda6.js.map",
     "453.fb01383b.chunk.js.map": "/static/js/453.fb01383b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.550a68b8.css",
-    "static/js/main.1f66ab97.js"
+    "static/css/main.1cbc0b26.css",
+    "static/js/main.7270fda6.js"
   ]
 }
